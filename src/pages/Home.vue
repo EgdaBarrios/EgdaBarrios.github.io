@@ -11,7 +11,7 @@
         </div>
         <div class="call-to-action">
           <a
-            href="https://drive.google.com/file/d/1hW4Gd-vbdbTFtuB84mV8ufMWFh0SK8lg/view?usp=sharing"
+            href="https://drive.google.com/file/d/1l445eBhDsNvpf_rILBxIvlyGdaGDGznB/view?usp=sharing"
             class="primary"
             target="_blank"
             rel="noopener"
@@ -27,6 +27,9 @@
     <section id="about">
       <About />
     </section>
+    <section id="freelance">
+      <Freelance />
+    </section>
     <section id="experience">
       <Experience />
     </section>
@@ -39,7 +42,7 @@
     <div class="footer">
       <div class="inner-footer">
         <div class="column">
-          <p>&copy; 2022</p>
+          <p>&copy; 2023</p>
         </div>
         <div class="column-large">
           <p>
@@ -78,6 +81,7 @@
 
 <script>
 import About from '@/components/About.vue';
+import Freelance from '@/components/Freelance.vue';
 import Experience from '@/components/Experience.vue';
 import Education from '@/components/Education.vue';
 import Skills from '@/components/Skills.vue';
@@ -86,6 +90,7 @@ export default {
   name: 'Home',
   components: {
     About,
+    Freelance,
     Experience,
     Education,
     Skills,
